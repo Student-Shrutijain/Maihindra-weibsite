@@ -5,6 +5,7 @@
     scroll-behavior: smooth;
 }
 
+<<<<<<< HEAD
 html,
 body {
     width: 100%;
@@ -14,11 +15,17 @@ body {
     position: relative;
 }
 
+=======
+>>>>>>> 7994d41 (responsive.css)
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #000;
     color: #ffffff;
     min-height: 100vh;
+<<<<<<< HEAD
+=======
+    overflow-x: hidden;
+>>>>>>> 7994d41 (responsive.css)
     /* Simulated city night background or dark gradient */
     background-image: url('images/background-city.png');
     background-color: #000;
@@ -31,18 +38,25 @@ body {
 .main-wrapper {
     max-width: 1440px;
     margin: 0 auto;
+<<<<<<< HEAD
     padding: 20px;
+=======
+    padding: 20px 40px;
+>>>>>>> 7994d41 (responsive.css)
     min-height: 76vh;
     display: flex;
     flex-direction: column;
 }
 
+<<<<<<< HEAD
 @media (min-width: 768px) {
     .main-wrapper {
         padding: 20px 40px;
     }
 }
 
+=======
+>>>>>>> 7994d41 (responsive.css)
 /* Header */
 header {
     display: flex;
@@ -59,19 +73,28 @@ header {
 }
 
 .logo-img {
+<<<<<<< HEAD
     margin-left: 0;
     max-width: 354px;
     width: 100%;
+=======
+    margin-left: 68px;
+    width: 354px;
+    /* Approx 353.72px */
+>>>>>>> 7994d41 (responsive.css)
     height: auto;
     object-fit: contain;
 }
 
+<<<<<<< HEAD
 @media (min-width: 768px) {
     .logo-img {
         margin-left: 68px;
     }
 }
 
+=======
+>>>>>>> 7994d41 (responsive.css)
 /* Removed old .logo text styles and .logo-bold */
 
 .header-btn {
@@ -123,8 +146,13 @@ header {
     content: '';
     position: absolute;
     top: -100px;
+<<<<<<< HEAD
     right: -100%;
     width: 200%;
+=======
+    right: -199px;
+    width: 1059px;
+>>>>>>> 7994d41 (responsive.css)
     height: 753px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 50%);
     backdrop-filter: blur(0px);
@@ -132,6 +160,7 @@ header {
     transform: rotate(90deg);
     opacity: 1;
     z-index: -1;
+<<<<<<< HEAD
     pointer-events: none;
 }
 
@@ -139,6 +168,8 @@ header {
     .hero-text::before {
         display: none;
     }
+=======
+>>>>>>> 7994d41 (responsive.css)
 }
 
 .brand-name {
@@ -168,9 +199,14 @@ header {
     margin-bottom: 20px;
     text-transform: uppercase;
     text-align: center;
+<<<<<<< HEAD
     max-width: 476px;
     width: 100%;
     height: auto;
+=======
+    width: 476px;
+    height: 26px
+>>>>>>> 7994d41 (responsive.css)
 }
 
 .divider-icon {
@@ -180,9 +216,16 @@ header {
 }
 
 .divider-img {
+<<<<<<< HEAD
     width: 100%;
     max-width: 476px;
     height: auto;
+=======
+    width: 476px;
+    max-width: 476px;
+    /* Adjust based on preference */
+    height: 30.91px;
+>>>>>>> 7994d41 (responsive.css)
     object-fit: contain;
 }
 
@@ -190,15 +233,27 @@ header {
     font-size: 18px;
     color: #e0e0e0;
     margin-bottom: 30px;
+<<<<<<< HEAD
     max-width: 345px;
     width: 100%;
     height: auto;
     font-family: 'Instrument sans';
+=======
+    width: 345px;
+    height: 52px;
+    font: 'Instrument sans';
+>>>>>>> 7994d41 (responsive.css)
     line-height: 1.45em;
     letter-spacing: 0.08em;
     text-align: center;
     font-style: medium;
     font-weight: 500;
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 7994d41 (responsive.css)
 }
 
 .price-tag {
@@ -304,6 +359,7 @@ header {
     justify-content: flex-end;
     position: relative;
     margin-bottom: -50px;
+<<<<<<< HEAD
     margin-right: 0;
 }
 
@@ -311,6 +367,9 @@ header {
     .hero-image-container {
         margin-right: 70px;
     }
+=======
+    margin-right: 70px;
+>>>>>>> 7994d41 (responsive.css)
 }
 
 .arch-frame {
@@ -390,14 +449,26 @@ header {
 /* Typography for new sections */
 .heading-serif {
     font-family: 'Playfair Display', serif;
+<<<<<<< HEAD
     font-size: calc(28px + 1.5vw);
+=======
+    font-size: 56px;
+>>>>>>> 7994d41 (responsive.css)
     font-weight: 500;
     line-height: 120%;
     letter-spacing: 0em;
     color: #333;
+<<<<<<< HEAD
     width: 100%;
     max-width: 931px;
     margin: 0 auto 15px;
+=======
+    width: 931px;
+    height: 67px;
+    margin-left: 148px;
+    margin-right: auto;
+    margin-bottom: 15px;
+>>>>>>> 7994d41 (responsive.css)
     text-align: center;
 }
 
@@ -408,24 +479,41 @@ header {
 
 .subheading {
     font-family: 'Instrument Sans', sans-serif;
+<<<<<<< HEAD
     font-size: clamp(14px, 4vw, 18px);
+=======
+    font-size: 18px;
+>>>>>>> 7994d41 (responsive.css)
     font-weight: 500;
     font-style: italic;
     line-height: 145%;
     letter-spacing: 0.16em;
     text-transform: uppercase;
     color: #4B4D4C;
+<<<<<<< HEAD
     width: 100%;
     max-width: 1240px;
     margin: 0 auto 15px;
+=======
+    width: 1240px;
+    height: 26px;
+    margin-left: 0px;
+    margin-right: auto;
+    margin-bottom: 15px;
+>>>>>>> 7994d41 (responsive.css)
     display: block;
     text-align: center;
 }
 
 .section-divider {
+<<<<<<< HEAD
     width: 100%;
     max-width: 1240px;
     height: auto;
+=======
+    width: 1240px;
+    height: 80.51px;
+>>>>>>> 7994d41 (responsive.css)
     display: block;
     margin: 0 auto 40px;
     opacity: 1;
@@ -605,7 +693,11 @@ header {
     font-family: 'Instrument Sans', sans-serif;
     font-weight: 500;
     font-style: italic;
+<<<<<<< HEAD
     font-size: clamp(14px, 4vw, 18px);
+=======
+    font-size: 18px;
+>>>>>>> 7994d41 (responsive.css)
     line-height: 145%;
     letter-spacing: 0.16em;
     text-transform: uppercase;
@@ -613,7 +705,10 @@ header {
     color: #FAFAFA;
     margin-bottom: 50px;
     display: block;
+<<<<<<< HEAD
     width: 100%;
+=======
+>>>>>>> 7994d41 (responsive.css)
     max-width: 1240px;
     margin-left: auto;
     margin-right: auto;
@@ -631,15 +726,24 @@ header {
 /* Pricing Cards */
 .pricing-grid {
     display: grid;
+<<<<<<< HEAD
     grid-template-columns: 1fr;
     gap: 30px;
     width: 100%;
     max-width: 1240px;
     height: auto;
+=======
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    width: 1240px;
+    max-width: 100%;
+    height: 288px;
+>>>>>>> 7994d41 (responsive.css)
     margin: 0 auto;
     opacity: 1;
 }
 
+<<<<<<< HEAD
 @media (min-width: 1024px) {
     .pricing-grid {
         grid-template-columns: repeat(3, 1fr);
@@ -647,6 +751,8 @@ header {
     }
 }
 
+=======
+>>>>>>> 7994d41 (responsive.css)
 .pricing-card {
     background: #FFFFFF;
     border-radius: 24px;
@@ -654,11 +760,16 @@ header {
     color: #333;
     position: relative;
     overflow: hidden;
+<<<<<<< HEAD
     width: 100%;
     max-width: 403px;
     min-height: 288px;
     height: auto;
     margin: 0 auto;
+=======
+    width: 402.67px;
+    height: 288px;
+>>>>>>> 7994d41 (responsive.css)
     transform: rotate(0deg);
     opacity: 1;
     display: flex;
@@ -666,6 +777,10 @@ header {
     justify-content: center;
     align-items: center;
     gap: 40px;
+<<<<<<< HEAD
+=======
+    /* Frame 25 and button gap */
+>>>>>>> 7994d41 (responsive.css)
 }
 
 .pricing-info-frame {
@@ -673,9 +788,14 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
     height: auto;
     width: 100%;
     max-width: 322.67px;
+=======
+    height: 120px;
+    width: 322.67px;
+>>>>>>> 7994d41 (responsive.css)
     gap: 12px;
 }
 
@@ -684,10 +804,15 @@ header {
     background: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(12px);
     background-image: none;
+<<<<<<< HEAD
     width: 100%;
     max-width: 403px;
     min-height: 288px;
     height: auto;
+=======
+    width: 403px;
+    height: 288px;
+>>>>>>> 7994d41 (responsive.css)
     transform: rotate(0deg);
     opacity: 1;
 }
@@ -730,8 +855,15 @@ header {
     letter-spacing: 0.08em;
     text-align: center;
     color: #4B4D4C;
+<<<<<<< HEAD
     width: 100%;
     height: auto;
+=======
+    width: 322.67px;
+    height: 35px;
+    top: 39px;
+    left: 40px;
+>>>>>>> 7994d41 (responsive.css)
     margin-bottom: 0px;
     opacity: 1;
 }
@@ -745,9 +877,18 @@ header {
     letter-spacing: 0.08em;
     text-align: center;
     color: #4B4D4C;
+<<<<<<< HEAD
     width: 100%;
     height: auto;
     margin-bottom: 20px;
+=======
+    width: 322.67px;
+    height: 35px;
+    top: 39px;
+    left: 40px;
+    margin-bottom: 166px;
+    margin-left: 2px;
+>>>>>>> 7994d41 (responsive.css)
     opacity: 1;
 }
 
@@ -760,8 +901,13 @@ header {
     letter-spacing: 0.08em;
     text-align: center;
     color: #4B4D4C;
+<<<<<<< HEAD
     width: 100%;
     height: auto;
+=======
+    width: 322.67px;
+    height: 26px;
+>>>>>>> 7994d41 (responsive.css)
     margin-bottom: 0;
     opacity: 1;
 }
@@ -821,12 +967,20 @@ header {
 
 .sold-out-stamp-img {
     position: absolute;
+<<<<<<< HEAD
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(-1.23deg);
     width: 100%;
     max-width: 304.85px;
     height: auto;
+=======
+    top: 14.98px;
+    left: 25.97px;
+    width: 304.85px;
+    height: 228.63px;
+    transform: rotate(-1.23deg);
+>>>>>>> 7994d41 (responsive.css)
     z-index: 10;
     opacity: 1;
 }
@@ -1073,6 +1227,17 @@ section.fade-in-up {
     color: #fff;
 }
 
+<<<<<<< HEAD
+=======
+@media (max-width: 900px) {
+
+    .pricing-grid,
+    .amenities-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+>>>>>>> 7994d41 (responsive.css)
 /* ===== NEW SECTIONS STYLES ===== */
 
 /* Floor Plans Gallery Section */
@@ -1082,6 +1247,7 @@ section.fade-in-up {
 
 .floor-plans-wrapper {
     display: grid;
+<<<<<<< HEAD
     grid-template-columns: 1fr;
     gap: 20px;
     width: 100%;
@@ -1101,6 +1267,14 @@ section.fade-in-up {
     }
 }
 
+=======
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+>>>>>>> 7994d41 (responsive.css)
 .floor-plan-item {
     position: relative;
     border-radius: 20px;
@@ -1181,13 +1355,21 @@ section.fade-in-up {
 .glimpse-section .heading-serif {
     font-family: 'Playfair Display', serif;
     font-weight: 500;
+<<<<<<< HEAD
     font-size: calc(28px + 1.5vw);
+=======
+    font-size: 53px;
+>>>>>>> 7994d41 (responsive.css)
     line-height: 120%;
     letter-spacing: 0;
     text-align: center;
     margin: 40px auto 12px;
+<<<<<<< HEAD
     width: 100%;
     max-width: 931px;
+=======
+    ;
+>>>>>>> 7994d41 (responsive.css)
     color: #4B4D4C;
 }
 
@@ -1199,14 +1381,21 @@ section.fade-in-up {
     font-family: 'Instrument Sans', sans-serif;
     font-weight: 500;
     font-style: italic;
+<<<<<<< HEAD
     font-size: clamp(14px, 4vw, 18px);
+=======
+    font-size: 18px;
+>>>>>>> 7994d41 (responsive.css)
     line-height: 145%;
     letter-spacing: 0.16em;
     text-align: center;
     text-transform: uppercase;
     margin: 0 auto 30px;
+<<<<<<< HEAD
     width: 100%;
     max-width: 1240px;
+=======
+>>>>>>> 7994d41 (responsive.css)
     color: #4B4D4C;
 }
 
@@ -1216,8 +1405,12 @@ section.fade-in-up {
 }
 
 .glimpse-section .divider-img-center {
+<<<<<<< HEAD
     width: 100%;
     max-width: 1240px;
+=======
+    width: 1240px;
+>>>>>>> 7994d41 (responsive.css)
     height: auto;
     opacity: 1;
     display: block;
@@ -1241,9 +1434,14 @@ section.fade-in-up {
 }
 
 .divider-img-left {
+<<<<<<< HEAD
     width: 100%;
     max-width: 620px;
     height: auto;
+=======
+    width: 620px;
+    height: 40.254615783691406px;
+>>>>>>> 7994d41 (responsive.css)
     opacity: 1;
     display: block;
     object-fit: contain;
@@ -1255,7 +1453,11 @@ section.fade-in-up {
     max-width: 100%;
     /* Allow full width to show 5 images */
     margin: 0 auto;
+<<<<<<< HEAD
     padding: 0 20px;
+=======
+    padding: 0 40px;
+>>>>>>> 7994d41 (responsive.css)
 }
 
 /* Glimpse Marquee Section */
@@ -1269,10 +1471,17 @@ section.fade-in-up {
     display: flex;
     overflow: hidden;
     width: 100%;
+<<<<<<< HEAD
     max-width: 100vw;
     margin-bottom: 24px;
     user-select: none;
     pointer-events: none;
+=======
+    margin-bottom: 24px;
+    user-select: none;
+    pointer-events: none;
+    /* Restrictions as requested */
+>>>>>>> 7994d41 (responsive.css)
 }
 
 .glimpse-row-inner {
@@ -1318,13 +1527,19 @@ section.fade-in-up {
 }
 
 .glimpse-img-card {
+<<<<<<< HEAD
     flex: 0 0 280px;
     height: 220px;
+=======
+    flex: 0 0 400px;
+    height: 300px;
+>>>>>>> 7994d41 (responsive.css)
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
+<<<<<<< HEAD
 @media (min-width: 768px) {
     .glimpse-img-card {
         flex: 0 0 400px;
@@ -1332,6 +1547,8 @@ section.fade-in-up {
     }
 }
 
+=======
+>>>>>>> 7994d41 (responsive.css)
 .glimpse-img-card img {
     width: 100%;
     height: 100%;
@@ -1342,6 +1559,7 @@ section.fade-in-up {
 /* New Custom Glimpse Gallery */
 .glimpse-grid-custom {
     display: grid;
+<<<<<<< HEAD
     grid-template-columns: 1fr;
     gap: 10px;
     margin: 50px auto 0;
@@ -1360,12 +1578,24 @@ section.fade-in-up {
     max-width: 389px;
     height: auto;
     margin: 0 auto;
+=======
+    grid-template-columns: 389px 1fr;
+    gap: 10px;
+    margin: 50px auto 0;
+    max-width: 1212px;
+}
+
+.glimpse-left-col {
+    width: 389px;
+    height: 584px;
+>>>>>>> 7994d41 (responsive.css)
 }
 
 .glimpse-right-col {
     display: flex;
     flex-direction: column;
     gap: 10px;
+<<<<<<< HEAD
     margin-left: 0;
     width: 100%;
 }
@@ -1374,15 +1604,24 @@ section.fade-in-up {
     .glimpse-right-col {
         margin-left: 20px;
     }
+=======
+    margin-left: 200px;
+>>>>>>> 7994d41 (responsive.css)
 }
 
 .glimpse-row {
     display: flex;
+<<<<<<< HEAD
     flex-wrap: wrap;
     gap: 10px;
     margin-left: 0;
     align-items: center;
     width: 100%;
+=======
+    gap: 10px;
+    margin-left: 200px;
+    align-items: center;
+>>>>>>> 7994d41 (responsive.css)
 }
 
 .glimpse-img-wrapper {
@@ -1401,6 +1640,7 @@ section.fade-in-up {
 
 /* Specific Sizes */
 .img-garden {
+<<<<<<< HEAD
     width: 100%;
     max-width: 389px;
     height: auto;
@@ -1443,6 +1683,38 @@ section.fade-in-up {
     height: auto;
     aspect-ratio: 397 / 280;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+=======
+    width: 389px;
+    height: 584px;
+}
+
+.img-kitchen {
+    width: 263px;
+    height: 280px;
+}
+
+.img-lawn {
+    width: 540px;
+    height: 280px;
+}
+
+.img-badminton {
+    width: 397.33px;
+    height: 280px;
+}
+
+.img-bedroom {
+    width: 397.33px;
+    height: 280px;
+}
+
+.glimpse-img-card {
+    width: 397px;
+    border-radius: 24px;
+    overflow: hidden;
+    height: 280px;
+    box-shadow: #D9D9D9;
+>>>>>>> 7994d41 (responsive.css)
     transition: transform 0.3s;
     align-content: center;
 }
@@ -1458,6 +1730,7 @@ section.fade-in-up {
 }
 
 .glimpse-img-card.large-card {
+<<<<<<< HEAD
     grid-column: span 1;
     height: 200px;
 }
@@ -1468,6 +1741,12 @@ section.fade-in-up {
     }
 }
 
+=======
+    grid-column: span 2;
+    height: 200px;
+}
+
+>>>>>>> 7994d41 (responsive.css)
 /* Smart Specifications Section */
 .specs-section {
     padding: 80px 0;
@@ -1477,6 +1756,7 @@ section.fade-in-up {
 .specs-section .heading-serif {
     font-family: 'Playfair Display', serif;
     font-weight: 500;
+<<<<<<< HEAD
     font-size: calc(28px + 1.5vw);
     line-height: 120%;
     letter-spacing: 0;
@@ -1486,6 +1766,16 @@ section.fade-in-up {
     opacity: 1;
     text-align: center;
     margin: 0 auto 10px;
+=======
+    font-size: 56px;
+    line-height: 120%;
+    letter-spacing: 0;
+    width: 522px;
+    height: 67px;
+    opacity: 1;
+    text-align: center;
+    margin: 0 399px 10px;
+>>>>>>> 7994d41 (responsive.css)
     color: #4B4D4C;
 }
 
@@ -1497,20 +1787,32 @@ section.fade-in-up {
     font-family: 'Instrument Sans', sans-serif;
     font-weight: 500;
     font-style: italic;
+<<<<<<< HEAD
     font-size: clamp(14px, 4vw, 18px);
+=======
+    font-size: 18px;
+>>>>>>> 7994d41 (responsive.css)
     line-height: 145%;
     letter-spacing: 0.19em;
     text-align: center;
     text-transform: uppercase;
+<<<<<<< HEAD
     width: 100%;
     max-width: 1240px;
     height: auto;
     opacity: 1;
     margin: 0 auto 30px;
+=======
+    width: 1240px;
+    height: 26px;
+    opacity: 1;
+    margin: 0 35px 30px;
+>>>>>>> 7994d41 (responsive.css)
     color: #4B4D4C;
 }
 
 .specs-section .section-divider {
+<<<<<<< HEAD
     width: 90%;
     max-width: 1240px;
     height: auto;
@@ -1518,10 +1820,20 @@ section.fade-in-up {
     display: block;
     margin: 0 auto 50px;
     object-fit: contain;
+=======
+    width: 100%;
+    height: 80.50923156738281px;
+    opacity: 1;
+    display: block;
+    margin: 0 45px 50px;
+    object-fit: contain;
+    margin-left: 10px;
+>>>>>>> 7994d41 (responsive.css)
 }
 
 .specs-grid {
     display: grid;
+<<<<<<< HEAD
     grid-template-columns: 1fr;
     gap: 24px;
     margin-top: 50px;
@@ -1543,6 +1855,15 @@ section.fade-in-up {
     .specs-grid {
         grid-template-columns: repeat(4, 1fr);
     }
+=======
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    margin-top: 50px;
+    width: 1240px;
+    height: 716px;
+    opacity: 1;
+
+>>>>>>> 7994d41 (responsive.css)
 }
 
 .spec-card {
@@ -1563,9 +1884,14 @@ section.fade-in-up {
 }
 
 .spec-img img {
+<<<<<<< HEAD
     width: 100%;
     height: auto;
     aspect-ratio: 292 / 280;
+=======
+    width: 292px;
+    height: 280px;
+>>>>>>> 7994d41 (responsive.css)
     object-fit: cover;
 }
 
@@ -1574,6 +1900,7 @@ section.fade-in-up {
     font-size: 18px;
     font-weight: 600;
     color: #4B4D4C;
+<<<<<<< HEAD
     padding: 30px 20px;
     text-align: center;
     letter-spacing: 0.04em;
@@ -1591,6 +1918,20 @@ section.fade-in-up {
 
 
 
+=======
+    padding: 100px 20px 50px;
+    text-align: center;
+    margin-left: 22px;
+    margin-top: 10px;
+    letter-spacing: 0.04em;
+    width: 244px;
+    height: 52px;
+    opacity: 1;
+    line-height: 1.45em;
+    text-transform: uppercase;
+}
+
+>>>>>>> 7994d41 (responsive.css)
 .spec-list {
     list-style: none;
     padding: 0 20px 20px;
@@ -1635,6 +1976,7 @@ section.fade-in-up {
 .location-section .heading-serif {
     font-family: 'Playfair Display', serif;
     font-weight: 500;
+<<<<<<< HEAD
     font-size: calc(28px + 2vw);
     line-height: 120%;
     letter-spacing: 0;
@@ -1644,6 +1986,17 @@ section.fade-in-up {
     opacity: 1;
     text-align: left;
     margin-left: 0;
+=======
+    font-size: 56px;
+    line-height: 120%;
+    letter-spacing: 0;
+    width: 464px;
+    height: 67px;
+    opacity: 1;
+    text-align: left;
+    margin-left: 0;
+    /* Aligning with the list content */
+>>>>>>> 7994d41 (responsive.css)
     margin-bottom: 15px;
 }
 
@@ -1653,12 +2006,18 @@ section.fade-in-up {
 
 .location-grid {
     display: grid;
+<<<<<<< HEAD
     grid-template-columns: 1fr;
     gap: 40px;
+=======
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+>>>>>>> 7994d41 (responsive.css)
     align-items: center;
     margin-top: 50px;
 }
 
+<<<<<<< HEAD
 @media (min-width: 900px) {
     .location-grid {
         grid-template-columns: 1fr 1fr;
@@ -1680,6 +2039,15 @@ section.fade-in-up {
     width: 100%;
     max-width: 620px;
     height: auto;
+=======
+.location-points {
+    padding-right: 40px;
+}
+
+.location-list {
+    width: 620px;
+    height: 166px;
+>>>>>>> 7994d41 (responsive.css)
     gap: 12px;
     display: flex;
     flex-direction: column;
@@ -1721,11 +2089,17 @@ section.fade-in-up {
 
 .location-map img {
     border-radius: 24px;
+<<<<<<< HEAD
     width: 100%;
     height: auto;
     aspect-ratio: 580 / 343;
     display: block;
     object-fit: cover;
+=======
+    width: 580px;
+    height: 343.45px;
+    display: block;
+>>>>>>> 7994d41 (responsive.css)
 }
 
 .map-overlay {
@@ -1857,9 +2231,13 @@ section.fade-in-up {
 
 .static-footer {
     display: flex;
+<<<<<<< HEAD
     flex-direction: column;
     gap: 20px;
     justify-content: center;
+=======
+    justify-content: space-between;
+>>>>>>> 7994d41 (responsive.css)
     align-items: center;
     max-width: 1300px;
     margin: 50px auto 0;
@@ -1869,6 +2247,7 @@ section.fade-in-up {
     font-size: 12px;
 }
 
+<<<<<<< HEAD
 @media (min-width: 768px) {
     .static-footer {
         flex-direction: row;
@@ -1876,6 +2255,8 @@ section.fade-in-up {
     }
 }
 
+=======
+>>>>>>> 7994d41 (responsive.css)
 .footer-links {
     display: flex;
     align-items: center;
@@ -1897,6 +2278,7 @@ section.fade-in-up {
 }
 
 .footer-copyright {
+<<<<<<< HEAD
     text-align: center;
     letter-spacing: 0.05em;
 }
@@ -1907,6 +2289,12 @@ section.fade-in-up {
     }
 }
 
+=======
+    text-align: right;
+    letter-spacing: 0.05em;
+}
+
+>>>>>>> 7994d41 (responsive.css)
 /* --- Sticky Footer Replica --- */
 .sticky-footer-replica {
     position: fixed;
@@ -1952,7 +2340,11 @@ section.fade-in-up {
 }
 
 .footer-btn-item .icon {
+<<<<<<< HEAD
     font-size: clamp(16px, 4vw, 22px);
+=======
+    font-size: 22px;
+>>>>>>> 7994d41 (responsive.css)
 }
 
 @media (max-width: 900px) {
@@ -1962,8 +2354,12 @@ section.fade-in-up {
 
     .tour-video-wrapper {
         border-radius: 30px;
+<<<<<<< HEAD
         max-width: 95%;
         margin-top: -150px;
+=======
+        max-width: 90%;
+>>>>>>> 7994d41 (responsive.css)
     }
 
     .tour-video-label {
@@ -1971,13 +2367,20 @@ section.fade-in-up {
     }
 
     .tour-play-btn {
+<<<<<<< HEAD
         border-top: 20px solid transparent;
         border-bottom: 20px solid transparent;
         border-left: 35px solid #fff;
+=======
+        border-top: 30px solid transparent;
+        border-bottom: 30px solid transparent;
+        border-left: 50px solid #fff;
+>>>>>>> 7994d41 (responsive.css)
     }
 
     .sticky-footer-replica {
         height: 70px;
+<<<<<<< HEAD
     }
 
     .footer-btn-item {
@@ -1986,6 +2389,17 @@ section.fade-in-up {
         text-align: center;
         flex-direction: column;
         gap: 2px;
+=======
+        font-size: 14px;
+    }
+
+    .footer-btn-item {
+        font-size: 12px;
+        padding: 5px;
+        text-align: center;
+        flex-direction: column;
+        gap: 5px;
+>>>>>>> 7994d41 (responsive.css)
     }
 }
 
@@ -2016,7 +2430,66 @@ section.fade-in-up {
     transform: translateY(-5px);
 }
 
+<<<<<<< HEAD
 
+=======
+/* Responsive Styles for New Sections */
+@media (max-width: 1024px) {
+    .floor-plans-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .glimpse-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .specs-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .floor-plans-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .glimpse-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .glimpse-img-card.large-card {
+        grid-column: span 1;
+    }
+
+    .specs-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .location-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .location-points {
+        padding-right: 0;
+    }
+
+    .video-title {
+        font-size: 28px;
+    }
+
+    .play-button {
+        width: 60px;
+        height: 60px;
+        font-size: 24px;
+    }
+
+    .scroll-top {
+        right: 20px;
+        bottom: 90px;
+    }
+}
+>>>>>>> 7994d41 (responsive.css)
 
 /* Floor Plans Section - Replicated Design */
 .floor-plans-section {
@@ -2054,15 +2527,25 @@ section.fade-in-up {
 }
 
 .divider-img-white {
+<<<<<<< HEAD
     width: 100%;
     max-width: 1100px;
     height: auto;
     text-align: center;
     margin-bottom: -40px;
+=======
+    width: 1100px;
+    height: 80.51px;
+    text-align: center;
+    margin-bottom: -40px;
+
+
+>>>>>>> 7994d41 (responsive.css)
 }
 
 .floor-plans-grid {
     display: grid;
+<<<<<<< HEAD
     grid-template-columns: 1fr;
     gap: 40px;
     width: 100%;
@@ -2081,6 +2564,13 @@ section.fade-in-up {
     .floor-plans-grid {
         grid-template-columns: repeat(3, 1fr);
     }
+=======
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0px 0px;
+>>>>>>> 7994d41 (responsive.css)
 }
 
 .floor-plan-card-new {
@@ -2094,8 +2584,12 @@ section.fade-in-up {
     align-items: center;
     justify-content: center;
     min-height: 320px;
+<<<<<<< HEAD
     width: 100%;
     max-width: 332px;
+=======
+    width: 332px;
+>>>>>>> 7994d41 (responsive.css)
 }
 
 .plan-label {
@@ -2214,12 +2708,18 @@ section.fade-in-up {
 /* New Amenities Section */
 .amenities-grid-3 {
     display: grid;
+<<<<<<< HEAD
     grid-template-columns: 1fr;
     grid-auto-rows: minmax(200px, auto);
+=======
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 250px;
+>>>>>>> 7994d41 (responsive.css)
     gap: 20px;
     margin-bottom: 20px;
 }
 
+<<<<<<< HEAD
 @media (min-width: 600px) {
     .amenities-grid-3 {
         grid-template-columns: repeat(2, 1fr);
@@ -2253,6 +2753,15 @@ section.fade-in-up {
     }
 }
 
+=======
+.amenities-grid-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 250px;
+    gap: 20px;
+}
+
+>>>>>>> 7994d41 (responsive.css)
 .amenity-card {
     position: relative;
     border-radius: 20px;
@@ -2348,11 +2857,18 @@ section.fade-in-up {
 }
 
 .about-img-main {
+<<<<<<< HEAD
     width: 100%;
     max-width: 400px;
     height: auto;
     aspect-ratio: 400 / 549;
     margin-left: 0;
+=======
+    width: 400px;
+    height: 549px;
+
+    margin-left: -69px;
+>>>>>>> 7994d41 (responsive.css)
     border-radius: 20px;
     position: relative;
     z-index: 2;
@@ -2360,6 +2876,7 @@ section.fade-in-up {
     border: 1px solid #ddd;
 }
 
+<<<<<<< HEAD
 @media (min-width: 900px) {
     .about-img-main {
         margin-left: -69px;
@@ -2374,6 +2891,14 @@ section.fade-in-up {
     max-width: 400px;
     height: auto;
     aspect-ratio: 400 / 535;
+=======
+.about-img-bg {
+    position: absolute;
+    top: -25px;
+    left: -110px;
+    width: 400px;
+    height: 535px;
+>>>>>>> 7994d41 (responsive.css)
     background-size: cover;
     background-position: center;
     border-radius: 24px;
@@ -2386,16 +2911,25 @@ section.fade-in-up {
 
 /* Features Image */
 .features-img-tall {
+<<<<<<< HEAD
     width: 100%;
     max-width: 400px;
     height: auto;
     min-height: 400px;
     object-fit: cover;
     margin-top: 50px;
+=======
+    width: 650px;
+    max-width: 400px;
+    height: 600px;
+    object-fit: cover;
+    margin-top: 109px;
+>>>>>>> 7994d41 (responsive.css)
     border-radius: 40px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 }
 
+<<<<<<< HEAD
 @media (min-width: 900px) {
     .features-img-tall {
         margin-top: 109px;
@@ -2410,6 +2944,14 @@ section.fade-in-up {
     line-height: 1.2;
     width: 100%;
     max-width: 640px;
+=======
+/* Typography */
+.af-heading {
+    font-family: 'Playfair Display', serif;
+    font-size: 56px;
+    line-height: 1.2;
+    width: 640px;
+>>>>>>> 7994d41 (responsive.css)
     color: #333;
     margin-bottom: 5px;
     font-weight: 500;
@@ -2421,6 +2963,7 @@ section.fade-in-up {
 
 .af-subheading {
     font-family: 'Instrument Sans', sans-serif;
+<<<<<<< HEAD
     font-size: clamp(14px, 4vw, 18px);
     font-weight: 600;
     letter-spacing: 0.15em;
@@ -2442,6 +2985,21 @@ section.fade-in-up {
     }
 }
 
+=======
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    color: #666;
+    width: 800px;
+    height: 67px;
+    text-transform: uppercase;
+    font-style: italic;
+    margin-bottom: -10px;
+    margin-left: 12px;
+    display: block;
+}
+
+>>>>>>> 7994d41 (responsive.css)
 .af-divider {
     height: 100%;
     width: 100%;
@@ -2529,10 +3087,15 @@ section.fade-in-up {
 /* Scroll-Triggered Balcony Animation */
 .balcony-scroll-animation {
     position: fixed;
+<<<<<<< HEAD
     width: 90vw;
     max-width: 400px;
     height: auto;
     aspect-ratio: 400 / 535;
+=======
+    width: 400px;
+    height: 535px;
+>>>>>>> 7994d41 (responsive.css)
     object-fit: cover;
     border-radius: 24px;
     z-index: 9999;
@@ -2547,10 +3110,15 @@ section.fade-in-up {
 /* Scroll-Triggered Flip Animation - About to Features */
 .flip-scroll-animation {
     position: fixed;
+<<<<<<< HEAD
     width: 90vw;
     max-width: 400px;
     height: auto;
     aspect-ratio: 400 / 535;
+=======
+    width: 400px;
+    height: 535px;
+>>>>>>> 7994d41 (responsive.css)
     z-index: 9998;
     pointer-events: none;
     opacity: 0;
@@ -2573,4 +3141,404 @@ section.fade-in-up {
     box-shadow: 0 15px 50px rgba(0, 0, 0, 0.4);
     border: 2px solid rgba(255, 255, 255, 0.6);
     backface-visibility: visible;
+<<<<<<< HEAD
+=======
+}
+/* ==========================================
+   RESPONSIVE STYLES
+   Mobile First Approach
+   ========================================== */
+
+/* Tablet Styles (768px and up) */
+@media (max-width: 1200px) {
+    .hero-content {
+        gap: var(--spacing-xl);
+    }
+
+    .arch-frame {
+        width: 350px;
+        height: 500px;
+    }
+
+    .amenities-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .specs-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 1024px) {
+    :root {
+        --spacing-3xl: 60px;
+        --spacing-2xl: 48px;
+    }
+
+    .hero-content {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-xl);
+    }
+
+    .hero-arch {
+        justify-content: center;
+        margin-top: var(--spacing-xl);
+    }
+
+    .arch-frame {
+        width: 300px;
+        height: 400px;
+    }
+
+    .about-content {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-xl);
+    }
+
+    .about-image {
+        order: -1;
+    }
+
+    .features-content {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-xl);
+    }
+
+    .pricing-cards {
+        grid-template-columns: 1fr;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .floor-plans-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .gallery-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .location-content {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Mobile Styles (768px and below) */
+@media (max-width: 768px) {
+    :root {
+        --spacing-3xl: 48px;
+        --spacing-2xl: 32px;
+        --spacing-xl: 24px;
+    }
+
+    section {
+        padding: var(--spacing-2xl) 0;
+    }
+
+    .container {
+        padding: 0 var(--spacing-sm);
+    }
+
+    /* Header */
+    .header {
+        padding: var(--spacing-xs) 0;
+    }
+
+    .logo {
+        font-size: 1rem;
+    }
+
+    .phone-btn {
+        padding: 10px 16px;
+        font-size: 0.875rem;
+    }
+
+    .phone-btn svg {
+        width: 14px;
+        height: 14px;
+    }
+
+    /* Hero */
+    .hero {
+        min-height: auto;
+        padding: 100px 0 var(--spacing-2xl);
+        background-attachment: scroll;
+    }
+
+    .hero-content {
+        min-height: auto;
+    }
+
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .hero-subtitle {
+        font-size: 0.75rem;
+        letter-spacing: 2px;
+    }
+
+    .hero-description {
+        font-size: 1.125rem;
+    }
+
+    .price-badge {
+        font-size: 1rem;
+        padding: 8px 20px;
+    }
+
+    .hero-features li {
+        font-size: 0.95rem;
+    }
+
+    .arch-frame {
+        width: 280px;
+        height: 350px;
+        padding: var(--spacing-md);
+    }
+
+    .arch-text {
+        font-size: 1.25rem;
+    }
+
+    /* Typography */
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .section-subtitle {
+        font-size: 0.75rem;
+        letter-spacing: 1.5px;
+    }
+
+    /* About */
+    .about-text {
+        padding-right: 0;
+    }
+
+    .about-description {
+        font-size: 1rem;
+    }
+
+    /* Features */
+    .features-list {
+        gap: var(--spacing-md);
+    }
+
+    .features-list h3 {
+        font-size: 1rem;
+    }
+
+    .features-list p {
+        font-size: 0.95rem;
+    }
+
+    /* Pricing */
+    .pricing-bg {
+        padding: var(--spacing-2xl) 0;
+    }
+
+    .pricing-card {
+        min-height: 280px;
+        padding: var(--spacing-lg);
+    }
+
+    .pricing-card h3 {
+        font-size: 1.75rem;
+    }
+
+    .pricing-card .price {
+        font-size: 1.75rem;
+    }
+
+    .sold-stamp {
+        font-size: 2rem;
+        padding: 15px 40px;
+        border-width: 4px;
+    }
+
+    /* Amenities */
+    .amenities-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--spacing-sm);
+    }
+
+    .amenity-overlay h3 {
+        font-size: 1rem;
+    }
+
+    /* Floor Plans */
+    .floor-plans-bg {
+        padding: var(--spacing-2xl) 0;
+    }
+
+    .floor-plans-grid {
+        grid-template-columns: 1fr;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Gallery */
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--spacing-sm);
+    }
+
+    /* Specifications */
+    .specs-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .spec-card img {
+        height: 180px;
+    }
+
+    /* Location */
+    .location-features li {
+        font-size: 1rem;
+    }
+
+    /* Virtual Tour */
+    .virtual-tour-bg {
+        padding: var(--spacing-2xl) 0;
+    }
+
+    .tour-title {
+        font-size: 1.5rem;
+        bottom: var(--spacing-md);
+    }
+
+    .play-btn svg {
+        width: 60px;
+        height: 60px;
+    }
+
+    .rera-info p {
+        font-size: 0.75rem;
+    }
+
+    /* Footer */
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: var(--spacing-sm);
+    }
+
+    /* Modal */
+    .modal-content {
+        padding: var(--spacing-lg);
+        max-height: 85vh;
+    }
+
+    .modal h2 {
+        font-size: 1.75rem;
+    }
+
+    .modal-close {
+        top: var(--spacing-sm);
+        right: var(--spacing-sm);
+        width: 36px;
+        height: 36px;
+        font-size: 1.75rem;
+    }
+
+    /* Lightbox */
+    .lightbox-close,
+    .lightbox-prev,
+    .lightbox-next {
+        width: 50px;
+        height: 50px;
+        font-size: 2rem;
+    }
+
+    .lightbox-close {
+        top: var(--spacing-sm);
+        right: var(--spacing-sm);
+    }
+
+    .lightbox-prev {
+        left: var(--spacing-sm);
+    }
+
+    .lightbox-next {
+        right: var(--spacing-sm);
+    }
+}
+
+/* Small Mobile (480px and below) */
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .arch-frame {
+        width: 240px;
+        height: 300px;
+    }
+
+    .arch-text {
+        font-size: 1rem;
+    }
+
+    .section-title {
+        font-size: 1.75rem;
+    }
+
+    .amenities-grid,
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .sold-stamp {
+        font-size: 1.5rem;
+        padding: 12px 30px;
+        letter-spacing: 2px;
+    }
+
+    .tour-title {
+        font-size: 1.25rem;
+        white-space: normal;
+        text-align: center;
+        padding: 0 var(--spacing-sm);
+    }
+
+    .play-btn svg {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+/* Landscape Mobile */
+@media (max-width: 768px) and (orientation: landscape) {
+    .hero {
+        min-height: auto;
+    }
+
+    .hero-arch {
+        display: none;
+    }
+}
+
+/* Print Styles */
+@media print {
+
+    .header,
+    .phone-btn,
+    .get-quote-btn,
+    .view-plan-btn,
+    .modal,
+    .lightbox {
+        display: none !important;
+    }
+
+    section {
+        page-break-inside: avoid;
+    }
+>>>>>>> 7994d41 (responsive.css)
 }
